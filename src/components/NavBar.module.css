@@ -1,0 +1,141 @@
+.button {
+  width: 3rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icon,
+.icon::after,
+.icon::before {
+  width: 3rem;
+  height: 0.5rem;
+  background-color: #022249;
+  position: absolute;
+}
+.icon::after {
+  content: "";
+  top: -0.9rem;
+  right: 0rem;
+}
+.icon::before {
+  content: "";
+  top: 0.9rem;
+  right: 0rem;
+}
+.links {
+  width: 60vw;
+  height: 100vh;
+  background-color: #55bdca;
+  position: fixed;
+  right: -65vw;
+  transition: 1s all;
+}
+.show {
+  right: 0;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(83, 83, 83, 0.3);
+}
+.links div:first-child {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  fill: #022249;
+  cursor: pointer;
+}
+.links ul {
+  margin: 7rem 0;
+}
+.links ul li {
+  text-align: center;
+  margin-top: 3rem;
+}
+.links ul li a {
+  color: #022249;
+  font-size: 2rem;
+}
+.links ul li a:hover {
+  color: #e6f9ff;
+}
+.links div:last-child {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
+.links button {
+  background-color: transparent;
+  border: none;
+  color: #022249;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-bottom: 4px solid #55bdca;
+}
+.links button:hover {
+  color: #e6f9ff;
+  border-bottom: 4px solid #e6f9ff;
+}
+.links .checked {
+  color: #e6f9ff;
+  border-bottom: 4px solid #55bdca;
+}
+@media (min-width: 1000px) {
+  .icon {
+    display: none;
+  }
+  .links {
+    background-color: transparent;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  .links ul {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    margin: 3rem 0 3rem 20%;
+    width: 80%;
+  }
+  .links ul li {
+    margin-top: 0;
+  }
+  .links div:first-child {
+    display: none;
+  }
+  .links button {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .links div:last-child {
+    width: 20%;
+    margin: 0 10% 0 0;
+    gap: 2rem;
+  }
+  .links ul li a:hover {
+    color: #26c4c4;
+  }
+  .links button{
+    border-bottom: 4px solid #e6f9ff;
+  }
+  .links button:hover {
+    color: #26c4c4;
+    border-bottom: 4px solid #26c4c4;
+  }
+  .links .checked {
+    color: #26c4c4;
+    border-bottom: 4px solid #e6f9ff;
+  }
+}

@@ -1,0 +1,12 @@
+.container{
+    background-color: #022249;
+    padding:3rem 15% ;
+}
+.container h3{
+    color:#26c4c4;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.container h3:last-child{
+    text-align: right;
+}

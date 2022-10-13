@@ -1,0 +1,94 @@
+.container{
+    height:100vh;
+    
+}
+.containerTitle{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.containerTitle h1{
+    text-align: center;
+    color:#022249;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.containerTitle h1 span{
+    color:#26c4c4;
+}
+.containerTitle p{
+    width:30rem;
+    text-align: center;
+    color:#022249;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.containerTitle p span{
+    color:#26c4c4;
+}
+.btn{
+    margin-top:2rem;
+    padding: .8rem 4rem;
+    background-color: #26c4c4;
+    color:white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.containerImg{
+    display:none
+}
+.down{
+    display:none;
+}
+@media (min-width:700px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:5rem;
+    }
+    .containerTitle{
+        align-items: start;
+        gap:2.5rem;
+    }
+    .containerTitle h1{
+        font-size: 3.7rem;
+        text-align: start;
+        width:22rem;
+    }
+    .containerTitle p{
+        width:34rem;
+        text-align: start;
+    }
+    .containerImg{
+        display: block;
+    }
+    .img{
+        width:30rem;
+        height:40rem;
+        background-color: #000000;
+        box-shadow: 1rem 1rem 0 #022249;
+    }
+    .down{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        bottom: 2rem;
+    }
+    .down h5{
+        color: #26c4c4;
+    }
+    .down svg{
+        fill:#26c4c4;
+    }
+}
+@media (min-width:1000px){
+    .container{
+        gap:20rem;
+    }
+}
