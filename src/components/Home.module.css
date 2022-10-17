@@ -1,6 +1,5 @@
 .container{
     height:100vh;
-    
 }
 .containerTitle{
     height: 100vh;
@@ -90,5 +89,10 @@
 @media (min-width:1000px){
     .container{
         gap:20rem;
+    }
+}
+@media (min-width:1700px){
+    .container{
+        height:60vh;;
     }
 }
