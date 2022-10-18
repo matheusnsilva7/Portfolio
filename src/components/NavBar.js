@@ -1,9 +1,12 @@
 import { useState } from "react";
+import Data from "./data";
 
 import Classes from "./NavBar.module.css";
 
-const NavBar = () => {
+const NavBar = ({ onchangeLanguage }) => {
   const [mobileNav, setMobileNav] = useState(false);
+  const [language, setLanguage] = useState("ENG");
+
   return (
     <nav>
       <button className={Classes.button} onClick={() => setMobileNav(true)}>
@@ -26,25 +29,33 @@ const NavBar = () => {
           </svg>
         </div>
         <ul>
-          <li>
-            <a href="#Home">Home</a>
-          </li>
-          <li>
-            <a href="#About">Aboult</a>
-          </li>
-          <li>
-            <a href="#Skill">Skill</a>
-          </li>
-          <li>
-            <a href="#Project">Project</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact</a>
-          </li>
+          {Data[language].nav.map((link, i) => {
+            return (
+              <li key={link.id + i}>
+                <a href={link.href}>{link.name}</a>
+              </li>
+            );
+          })}
         </ul>
         <div>
-          <button className={Classes.checked}>ENG</button>
-          <button>POR</button>
+          <button
+            className={language === "ENG" && Classes.checked}
+            onClick={() => {
+              setLanguage("ENG");
+              onchangeLanguage("ENG");
+            }}
+          >
+            ENG
+          </button>
+          <button
+            className={language === "POR" && Classes.checked}
+            onClick={() => {
+              setLanguage("POR");
+              onchangeLanguage("POR");
+            }}
+          >
+            POR
+          </button>
         </div>
       </div>
     </nav>

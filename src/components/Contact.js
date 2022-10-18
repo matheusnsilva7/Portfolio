@@ -12,9 +12,15 @@ const Contact = () => {
       <div className={Classes.containerContact}>
         <h3>Contact</h3>
         <div>
-          <h4 className={Classes.email}>Email<span>test@test.com</span></h4>
-          <h4>Linkedin<span>test23</span></h4>
-          <h4>Github<span>testtest2</span></h4>
+          <h4 className={Classes.email}>
+            Email<span>test@test.com</span>
+          </h4>
+          <h4>
+            Linkedin<span>test23</span>
+          </h4>
+          <h4>
+            Github<span>testtest2</span>
+          </h4>
         </div>
       </div>
     </footer>

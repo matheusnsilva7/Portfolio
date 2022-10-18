@@ -1,18 +1,23 @@
+import Data from "./data";
+
 import Classes from "./Home.module.css";
 
-const Home = () => {
+const Home = ({ language }) => {
+  const data = Data[language].home;
+
   return (
-    <header className={Classes.container}>
+    <header id="Home" className={Classes.container}>
       <div className={Classes.containerTitle}>
         <h1>
-          Hello! I'm <span>This person</span>
+          {data.introduction}
+          <br />
+          <span>{data.name}</span>
         </h1>
         <p>
-          A <span>Front-End Web Developer</span> passionate about creating
-          interactive applications and experiences on the web.
+          <span>{data.area}</span> {data.information}
         </p>
         <a href="#Project" className={Classes.btn}>
-          PROJECTS
+          {data.btn}
         </a>
       </div>
       <div className={Classes.containerImg}>

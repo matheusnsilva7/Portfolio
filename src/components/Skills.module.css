@@ -29,7 +29,7 @@
 .language h4 {
   color: #e6f9ff;
   letter-spacing: 2px;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
 }
 @media (min-width: 700px) {
   .skills {
@@ -39,7 +39,7 @@
 @media (min-width: 1000px) {
   .container {
     padding: 3rem 5rem;
-    width:100vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,6 +55,6 @@
   .skills {
     grid-template-columns: repeat(6, 1fr);
     gap: 0;
-    width:75vw;
+    width: 75vw;
   }
 }

@@ -1,25 +1,25 @@
-.container{
-    width:100vw;
-    background-color: #55bdca;
-    padding:3rem 15% ;
+.container {
+  width: 100vw;
+  background-color: #55bdca;
+  padding: 3rem 15%;
 }
-.container h3{
-    color: #e6f9ff;
-    font-weight: 400;
-    font-size: 2.5rem;
+.container h3 {
+  color: #e6f9ff;
+  font-weight: 400;
+  font-size: 2.5rem;
 }
 .container p {
-    padding: 2rem 0;
-    text-align: center;
-    color:white;
-    font-size: 1.5rem;
-    line-height: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
-.container h3:last-child{
-    text-align: right;
+.container h3:last-child {
+  text-align: right;
 }
-@media (min-width:700px){
-    .container p {
-        line-height: 4rem;
-    }  
+@media (min-width: 700px) {
+  .container p {
+    line-height: 4rem;
+  }
 }
