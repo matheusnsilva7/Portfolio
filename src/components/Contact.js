@@ -1,26 +1,28 @@
+import Data from "./data";
+
 import Classes from "./Contact.module.css";
 
-const Contact = () => {
+const Contact = ({ language }) => {
+  const data = Data[language].contact;
   return (
-    <footer className={Classes.container}>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
-      </p>
+    <footer id="Contact" className={Classes.container}>
+      <p>{data.note}</p>
       <div className={Classes.containerContact}>
-        <h3>Contact</h3>
+        <h3>{data.name}</h3>
         <div>
           <h4 className={Classes.email}>
             Email<span>test@test.com</span>
           </h4>
-          <h4>
-            Linkedin<span>test23</span>
-          </h4>
-          <h4>
-            Github<span>testtest2</span>
-          </h4>
+          {data.links.map((link, i) => {
+            return (
+              <a rel="noopener noreferrer" href={link.link} target="_blank">
+                <h4>
+                  {link.name}
+                  <span>{link.profile}</span>
+                </h4>
+              </a>
+            );
+          })}
         </div>
       </div>
     </footer>

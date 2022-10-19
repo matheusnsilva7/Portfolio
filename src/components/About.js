@@ -6,7 +6,7 @@ const About = ({ language }) => {
   const data = Data[language].about;
 
   return (
-    <section className={Classes.container}>
+    <section id="About" className={Classes.container}>
       <h3>{`<${data.name}>`}</h3>
       <p>{data.about}</p>
       <h3>{`</${data.name}>`}</h3>

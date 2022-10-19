@@ -6,6 +6,10 @@ import r from "../img/react.png";
 import Next from "../img/NextJs.png";
 
 import maisUmCode from "../img/Projectmaisumcode.png";
+import weeklyPlanning from "../img/weeklyplanning.png";
+import travel from "../img/travelwebsite.png";
+import Form from "../img/Form.png";
+import todoList from "../img/todoList.png";
 
 const Data = {
   ENG: {
@@ -35,8 +39,55 @@ const Data = {
         {
           id: 1,
           name: "Final project",
-          text: "this is the final project for MaisUmCode",
+          text: "Final project from MaisUmCode, using HTML | CSS | JavaScript",
           img: maisUmCode,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 2,
+          name: "Weekly Planning",
+          text: "Weekly planning that allows you to add, remove, drag and drop events in your week, using HTML | SASS | JavaScript",
+          img: weeklyPlanning,
+          link: "https://weeklyplanning-matheusnsilva7.netlify.app/",
+        },
+        {
+          id: 3,
+          name: "Travel",
+          text: "travel website, using HTML | SASS | JavaScript",
+          img: travel,
+          link: "https://travel-matheusnsilva7.netlify.app/",
+        },
+        {
+          id: 4,
+          name: "Form",
+          text: "Form with a login, create and change password page, using React | Redux",
+          img: Form,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 5,
+          name: "To Do List",
+          text: "weekly to-do list with a page with all the tasks for the week and other page showing the tasks you've done and the ones you need to do, using NextJs",
+          img: todoList,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+      ],
+    },
+    contact: {
+      name: "contact",
+      note: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      links: [
+        {
+          id: 1,
+          name: "LinkedIn",
+          profile: "matheus7",
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 1,
+          name: "Github",
+          profile: "matheus7",
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
         },
       ],
     },
@@ -44,9 +95,9 @@ const Data = {
   POR: {
     nav: [
       { id: 1, name: "Home", href: "#Home" },
-      { id: 2, name: "Sobre", href: "#Sobre" },
-      { id: 3, name: "Projetos", href: "#Projetos" },
-      { id: 3, name: "Contato", href: "#Contato" },
+      { id: 2, name: "Sobre", href: "#About" },
+      { id: 3, name: "Projetos", href: "#Project" },
+      { id: 3, name: "Contato", href: "#Contact" },
     ],
     home: {
       introduction: "Olá, eu sou ",
@@ -67,9 +118,56 @@ const Data = {
       projects: [
         {
           id: 1,
-          name: "Final project",
-          text: "this is the final project for MaisUmCode",
+          name: "Projeto Final",
+          text: "Projeto final do MaisUmCode, em HTML | CSS | JavaScript",
           img: maisUmCode,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 2,
+          name: "Planejamento semanal",
+          text: "Planejamento semanal que permite adicionar, remover, arrastar e soltar eventos em sua semana, usando HTML | SASS | JavaScript",
+          img: weeklyPlanning,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 3,
+          name: "Site de viagens",
+          text: "site de viagens, usando HTML | SASS | JavaScript",
+          img: travel,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 4,
+          name: "Formulário",
+          text: "form with a login, create and change password page, usando React | Redux",
+          img: Form,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 5,
+          name: "Lista De Afazeres",
+          text: "lista de tarefas semanais com uma página com todas as tarefas da semana e outras páginas mostrando as tarefas que você fez e as que você precisa fazer, usando NextJs",
+          img: todoList,
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+      ],
+    },
+    contact: {
+      name: "Contato",
+      note: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      links: [
+        {
+          id: 1,
+          name: "LinkedIn",
+          profile: "matheus7",
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+        },
+        {
+          id: 1,
+          name: "Github",
+          profile: "matheus7",
+          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
         },
       ],
     },

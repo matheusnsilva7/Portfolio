@@ -10,7 +10,12 @@ const Projects = ({ language }) => {
       <div className={Classes.projects}>
         {data.projects.map((project, i) => {
           return (
-            <div className={Classes.project}>
+            <a
+              className={Classes.project}
+              rel="noopener noreferrer"
+              href={project.link}
+              target="_blank"
+            >
               <img
                 className={Classes.img}
                 src={project.img}
@@ -18,7 +23,7 @@ const Projects = ({ language }) => {
               />
               <h4>{project.name}</h4>
               <p>{project.text}</p>
-            </div>
+            </a>
           );
         })}
       </div>
