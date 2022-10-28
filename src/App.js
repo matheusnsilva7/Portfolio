@@ -8,8 +8,18 @@ import Contact from "./components/Contact";
 
 import "./App.css";
 
+const options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0,
+};
+
 function App() {
   const [language, setLanguage] = useState("ENG");
+
+  const sectionObserver = (callback) => {
+    return new IntersectionObserver(callback, options);
+  };
 
   const changeLanguage = (Language) => {
     setLanguage(Language);
@@ -19,10 +29,10 @@ function App() {
     <div className="App">
       <NavBar onchangeLanguage={changeLanguage} />
       <Home language={language} />
-      <About language={language} />
-      <Skills language={language} />
-      <Projects language={language} />
-      <Contact language={language} />
+      <About language={language} sectionObserver={sectionObserver} />
+      <Skills language={language} sectionObserver={sectionObserver} />
+      <Projects language={language} sectionObserver={sectionObserver} />
+      <Contact language={language} sectionObserver={sectionObserver} />
     </div>
   );
 }

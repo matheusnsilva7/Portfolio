@@ -1,11 +1,27 @@
 import Data from "./data";
+import { useEffect, useRef, useState } from "react";
 import Classes from "./Projects.module.css";
 
-const Projects = ({ language }) => {
+const Projects = ({ language, sectionObserver }) => {
   const data = Data[language].projects;
+  const [visible, setVisible] = useState(false);
+  const target = useRef();
+
+  useEffect(() => {
+    const observer = sectionObserver(
+      (e) => e["0"].isIntersecting && setVisible(true)
+    );
+    if (target.current) observer.observe(target.current);
+  }, [target , sectionObserver]);
 
   return (
-    <section id="Project" className={Classes.container}>
+    <section
+      ref={target}
+      id="Project"
+      className={
+        visible ? Classes.container + " " + Classes.show : Classes.container
+      }
+    >
       <h3>{`<${data.name}>`}</h3>
       <div className={Classes.projects}>
         {data.projects.map((project, i) => {

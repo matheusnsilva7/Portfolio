@@ -1,6 +1,9 @@
 .container {
   background-color: #022249;
   padding: 4rem 15%;
+  transform: translateY(10rem);
+  opacity: 0;
+  transition: all 0.5s;
 }
 .container h3 {
   color: #26c4c4;
@@ -30,6 +33,10 @@
   color: #e6f9ff;
   letter-spacing: 2px;
   padding-top: 0.7rem;
+}
+.show {
+  transform: translateY(0rem);
+  opacity: 1;
 }
 @media (min-width: 700px) {
   .skills {

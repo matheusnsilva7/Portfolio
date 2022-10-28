@@ -1,6 +1,9 @@
 .container {
   background-color: #e6f9ff;
   padding: 4rem 15%;
+  transform: translateY(10rem);
+  opacity: 0;
+  transition: all 1.5s;
 }
 .container h3 {
   color: #26c4c4;
@@ -15,11 +18,11 @@
   display: grid;
   gap: 6rem;
 }
-.project p{
-  color:#022249;
+.project p {
+  color: #022249;
   font-size: 1.2rem;
   text-align: center;
-  width:30rem;
+  width: 30rem;
 }
 .project {
   display: flex;
@@ -38,7 +41,10 @@
   box-shadow: 10px -10px 0 #022249;
   border: 1px solid #022249;
 }
-
+.show {
+  transform: translateY(0rem);
+  opacity: 1;
+}
 @media (min-width: 880px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
