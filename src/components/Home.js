@@ -21,7 +21,7 @@ const Home = ({ language }) => {
         </a>
       </div>
       <div className={Classes.containerImg}>
-        <div className={Classes.img}></div>
+        <img className={Classes.img} src={Data.home} alt="code" />
       </div>
       <div className={Classes.down}>
         <h5>Scroll Down</h5>

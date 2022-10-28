@@ -13,12 +13,13 @@
 .projects {
   padding: 4rem 0;
   display: grid;
-  gap: 4rem;
+  gap: 6rem;
 }
 .project p{
   color:#022249;
   font-size: 1.2rem;
   text-align: center;
+  width:30rem;
 }
 .project {
   display: flex;
@@ -38,7 +39,7 @@
   border: 1px solid #022249;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 880px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
     gap: 6rem;

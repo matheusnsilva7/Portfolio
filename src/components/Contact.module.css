@@ -53,6 +53,7 @@
   .container p {
     text-align: start;
     padding: 2rem 2rem 0 0;
+    font-size: 1.4rem;
   }
   .container div div {
     grid-template-columns: 1fr;

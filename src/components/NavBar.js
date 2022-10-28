@@ -32,26 +32,30 @@ const NavBar = ({ onchangeLanguage }) => {
           {Data[language].nav.map((link, i) => {
             return (
               <li key={link.id + i}>
-                <a href={link.href}>{link.name}</a>
+                <a href={link.href} onClick={() => setMobileNav(false)}>
+                  {link.name}
+                </a>
               </li>
             );
           })}
         </ul>
         <div>
           <button
-            className={language === "ENG" && Classes.checked}
+            className={language === "ENG" ? Classes.checked : ""}
             onClick={() => {
               setLanguage("ENG");
               onchangeLanguage("ENG");
+              setMobileNav(false);
             }}
           >
             ENG
           </button>
           <button
-            className={language === "POR" && Classes.checked}
+            className={language === "POR" ? Classes.checked : ""}
             onClick={() => {
               setLanguage("POR");
               onchangeLanguage("POR");
+              setMobileNav(false);
             }}
           >
             POR

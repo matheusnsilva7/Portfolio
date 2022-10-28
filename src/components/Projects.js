@@ -11,6 +11,7 @@ const Projects = ({ language }) => {
         {data.projects.map((project, i) => {
           return (
             <a
+              key={project.id + i}
               className={Classes.project}
               rel="noopener noreferrer"
               href={project.link}

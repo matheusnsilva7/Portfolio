@@ -4,6 +4,7 @@ import sass from "../img/Sass.png";
 import Js from "../img/JavaScript.png";
 import r from "../img/react.png";
 import Next from "../img/NextJs.png";
+import code from "../img/code.jpg";
 
 import maisUmCode from "../img/Projectmaisumcode.png";
 import weeklyPlanning from "../img/weeklyplanning.png";
@@ -31,7 +32,7 @@ const Data = {
     about: {
       name: "About",
       about:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "I'm a self-taught front-end web developer passionate about creating interactive applications and experiences on the web. I started learning about web developer after some friends of mine recommended me, at the time I didn't even know what a web developer was. After some research, I really got interested about it, and with the help of my friends and a mentor I started to learn about front-end web developers. Since then, I try to learn and specialize more every day.",
     },
     projects: {
       name: "Projects",
@@ -48,7 +49,7 @@ const Data = {
           name: "Weekly Planning",
           text: "Weekly planning that allows you to add, remove, drag and drop events in your week, using HTML | SASS | JavaScript",
           img: weeklyPlanning,
-          link: "https://weeklyplanning-matheusnsilva7.netlify.app/",
+          link: "https://weeklyplanning-matheusnsilva7.netlify.app",
         },
         {
           id: 3,
@@ -62,32 +63,32 @@ const Data = {
           name: "Form",
           text: "Form with a login, create and change password page, using React | Redux",
           img: Form,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://form-matheusnsilva7.netlify.app",
         },
         {
           id: 5,
           name: "To Do List",
           text: "weekly to-do list with a page with all the tasks for the week and other page showing the tasks you've done and the ones you need to do, using NextJs",
           img: todoList,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://todolist-matheusnsilva7.netlify.app/",
         },
       ],
     },
     contact: {
       name: "contact",
-      note: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      note: "Thank you very much for visiting my portfolio website, i hope you enjoyed it, if there is any improvement suggestion please let me know through my LinkedId.",
       links: [
         {
           id: 1,
           name: "LinkedIn",
-          profile: "matheus7",
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          profile: "matheus-nascimento7",
+          link: "https://www.linkedin.com/in/matheus-nascimento7/",
         },
         {
           id: 1,
           name: "Github",
-          profile: "matheus7",
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          profile: "matheusnsilva7",
+          link: "https://github.com/matheusnsilva7",
         },
       ],
     },
@@ -111,7 +112,7 @@ const Data = {
     about: {
       name: "Sobre",
       about:
-        "Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, essencialmente inalterada. Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.",
+        "Sou um desenvolvedor web front-end apaixonado por criar aplicativos e experiências interativas na web. Comecei a aprender sobre desenvolvedor web depois que alguns amigos meus me recomendaram, na época eu nem sabia o que era um desenvolvedor web. Depois de algumas pesquisas, eu realmente me interessei muito pela área, e com a ajuda de meus amigos e um mentor comecei a aprender sobre desenvolvedores web front-end. Desde então, tento aprender e me especializar cada dia mais.",
     },
     projects: {
       name: "Projetos",
@@ -128,50 +129,51 @@ const Data = {
           name: "Planejamento semanal",
           text: "Planejamento semanal que permite adicionar, remover, arrastar e soltar eventos em sua semana, usando HTML | SASS | JavaScript",
           img: weeklyPlanning,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://weeklyplanning-matheusnsilva7.netlify.app",
         },
         {
           id: 3,
           name: "Site de viagens",
           text: "site de viagens, usando HTML | SASS | JavaScript",
           img: travel,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://travel-matheusnsilva7.netlify.app/",
         },
         {
           id: 4,
           name: "Formulário",
           text: "form with a login, create and change password page, usando React | Redux",
           img: Form,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://form-matheusnsilva7.netlify.app",
         },
         {
           id: 5,
           name: "Lista De Afazeres",
           text: "lista de tarefas semanais com uma página com todas as tarefas da semana e outras páginas mostrando as tarefas que você fez e as que você precisa fazer, usando NextJs",
           img: todoList,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://todolist-matheusnsilva7.netlify.app/",
         },
       ],
     },
     contact: {
       name: "Contato",
-      note: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      note: "Muito obrigado por visitar o site do meu portfólio, espero que tenha gostado, se houver alguma sugestão de melhoria, por favor me avise através do meu LinkedId.",
       links: [
         {
           id: 1,
           name: "LinkedIn",
-          profile: "matheus7",
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          profile: "matheus-nascimento7",
+          link: "https://www.linkedin.com/in/matheus-nascimento7/",
         },
         {
           id: 1,
           name: "Github",
-          profile: "matheus7",
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          profile: "matheusnsilva7",
+          link: "https://github.com/matheusnsilva7",
         },
       ],
     },
   },
+  home: code,
   skills: [
     { id: 1, name: "HTML", href: HTMl },
     { id: 2, name: "CSS", href: CSS },

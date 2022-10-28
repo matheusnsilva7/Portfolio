@@ -11,11 +11,11 @@ const Contact = ({ language }) => {
         <h3>{data.name}</h3>
         <div>
           <h4 className={Classes.email}>
-            Email<span>test@test.com</span>
+            Email<span> </span>
           </h4>
           {data.links.map((link, i) => {
             return (
-              <a rel="noopener noreferrer" href={link.link} target="_blank">
+              <a key={link.id + i} rel="noopener noreferrer" href={link.link} target="_blank">
                 <h4>
                   {link.name}
                   <span>{link.profile}</span>
