@@ -5,6 +5,7 @@ import Js from "../img/JavaScript.png";
 import r from "../img/react.png";
 import Next from "../img/NextJs.png";
 import code from "../img/code.jpg";
+import typeScript from "../img/TypeScript.png"
 
 import maisUmCode from "../img/Projectmaisumcode.png";
 import weeklyPlanning from "../img/weeklyplanning.png";
@@ -181,6 +182,7 @@ const Data = {
     { id: 4, name: "JavaScript", href: Js },
     { id: 5, name: "React", href: r },
     { id: 6, name: "NextJs", href: Next },
+    {id: 7, name: "TypeScript", href: typeScript}
   ],
 };
 

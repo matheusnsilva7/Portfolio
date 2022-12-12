@@ -128,7 +128,7 @@
     color: #26c4c4;
   }
   .links button {
-    border-bottom: 4px solid #e6f9ff;
+    border-bottom: 4px solid transparent;
   }
   .links button:hover {
     color: #26c4c4;
@@ -136,6 +136,6 @@
   }
   .links .checked {
     color: #26c4c4;
-    border-bottom: 4px solid #e6f9ff;
+    border-bottom: 4px solid transparent;
   }
 }

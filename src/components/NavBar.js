@@ -20,7 +20,7 @@ const NavBar = ({ onchangeLanguage }) => {
       )}
       <div
         className={
-          mobileNav ? `${Classes.links} ${Classes.show}` : Classes.links
+          !mobileNav ? Classes.links : `${Classes.links} ${Classes.show}`
         }
       >
         <div onClick={() => setMobileNav(false)}>

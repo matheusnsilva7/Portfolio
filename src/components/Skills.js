@@ -12,7 +12,7 @@ const Skills = ({ sectionObserver }) => {
       (e) => e["0"].isIntersecting && setVisible(true)
     );
     if (target.current) observer.observe(target.current);
-  }, [target , sectionObserver]);
+  }, [target, sectionObserver]);
 
   return (
     <section
