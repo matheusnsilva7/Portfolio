@@ -42,7 +42,7 @@ const Data = {
         {
           id: 1,
           name: "Lemonade Stand",
-          text: "Projeto final do MaisUmCode, em HTML | CSS | JavaScript",
+          text: "Lemonade stand project, with a menu, store, and pickup order page, using Nextjs | TypeScript",
           img: lemonade,
           link: "https://lemonadestand-matheusnsilva7.netlify.app/",
         },
@@ -70,14 +70,14 @@ const Data = {
         {
           id: 5,
           name: "Travel",
-          text: "travel website, using HTML | SASS | JavaScript",
+          text: "Travel website, using HTML | SASS | JavaScript",
           img: travel,
           link: "https://travel-matheusnsilva7.netlify.app/",
         },
         {
           id: 6,
           name: "To Do List",
-          text: "weekly to-do list with a page with all the tasks for the week and other page showing the tasks you've done and the ones you need to do, using NextJs",
+          text: "Weekly to-do list with a page with all the tasks for the week and other page showing the tasks you've done and the ones you need to do, using NextJs",
           img: todoList,
           link: "https://todolist-matheusnsilva7.netlify.app/",
         },
@@ -129,7 +129,7 @@ const Data = {
         {
           id: 1,
           name: "Lemonade Stand",
-          text: "Projeto final do MaisUmCode, em HTML | CSS | JavaScript",
+          text: "Projeto de barraca de limonada, com cardápio, loja e página de pedido de retirada, utilizando Nextjs | TypeScript",
           img: lemonade,
           link: "https://lemonadestand-matheusnsilva7.netlify.app/",
         },
@@ -143,7 +143,7 @@ const Data = {
         {
           id: 3,
           name: "Formulário",
-          text: "form with a login, create and change password page, usando React | Redux",
+          text: "Form with a login, create and change password page, usando React | Redux",
           img: Form,
           link: "https://form-matheusnsilva7.netlify.app",
         },
@@ -157,7 +157,7 @@ const Data = {
         {
           id: 5,
           name: "Site de viagens",
-          text: "site de viagens, usando HTML | SASS | JavaScript",
+          text: "Site de viagens, usando HTML | SASS | JavaScript",
           img: travel,
           link: "https://travel-matheusnsilva7.netlify.app/",
         },
@@ -165,7 +165,7 @@ const Data = {
         {
           id: 6,
           name: "Lista De Afazeres",
-          text: "lista de tarefas semanais com uma página com todas as tarefas da semana e outras páginas mostrando as tarefas que você fez e as que você precisa fazer, usando NextJs",
+          text: "Lista de tarefas semanais com uma página com todas as tarefas da semana e outras páginas mostrando as tarefas que você fez e as que você precisa fazer, usando NextJs",
           img: todoList,
           link: "https://todolist-matheusnsilva7.netlify.app/",
         },
