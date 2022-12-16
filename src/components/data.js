@@ -51,7 +51,7 @@ const Data = {
           name: "Final project",
           text: "Final project from MaisUmCode, using HTML | CSS | JavaScript",
           img: maisUmCode,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://matheusnsilva7.github.io/Final-project-MaisUmCode/",
         },
         {
           id: 3,
@@ -138,7 +138,7 @@ const Data = {
           name: "Projeto Final",
           text: "Projeto final do MaisUmCode, em HTML | CSS | JavaScript",
           img: maisUmCode,
-          link: "https://matheusnsilva7.github.io/projeto-final-maisumcode/",
+          link: "https://matheusnsilva7.github.io/Final-project-MaisUmCode/",
         },
         {
           id: 3,
