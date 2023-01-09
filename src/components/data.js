@@ -9,10 +9,10 @@ import typeScript from "../img/TypeScript.png";
 
 import maisUmCode from "../img/Projectmaisumcode.png";
 import weeklyPlanning from "../img/weeklyplanning.png";
-import travel from "../img/travelwebsite.png";
 import Form from "../img/Form.png";
 import todoList from "../img/todoList.png";
 import lemonade from "../img/Lemonade.png";
+import recipes from "../img/recipes.png";
 
 const Data = {
   ENG: {
@@ -41,38 +41,38 @@ const Data = {
       projects: [
         {
           id: 1,
+          name: "Recipes",
+          text: "Project that allow you to search and mark your favorite recipes,and also have a place for you to put your recipes, using Nextjs | TypeScript",
+          img: recipes,
+          link: "https://recipes-matheusnsilva7.netlify.app/",
+        },
+        {
+          id: 2,
           name: "Lemonade Stand",
           text: "Lemonade stand project, with a menu, store, and pickup order page, using Nextjs | TypeScript",
           img: lemonade,
           link: "https://lemonadestand-matheusnsilva7.netlify.app/",
         },
         {
-          id: 2,
+          id: 3,
           name: "Final project",
           text: "Final project from MaisUmCode, using HTML | CSS | JavaScript",
           img: maisUmCode,
           link: "https://matheusnsilva7.github.io/Final-project-MaisUmCode/",
         },
         {
-          id: 3,
+          id: 4,
           name: "Form",
           text: "Form with a login, create and change password page, using React | Redux",
           img: Form,
           link: "https://form-matheusnsilva7.netlify.app",
         },
         {
-          id: 4,
+          id: 5,
           name: "Weekly Planning",
           text: "Weekly planning that allows you to add, remove, drag and drop events in your week, using HTML | SASS | JavaScript",
           img: weeklyPlanning,
           link: "https://weeklyplanning-matheusnsilva7.netlify.app",
-        },
-        {
-          id: 5,
-          name: "Travel",
-          text: "Travel website, using HTML | SASS | JavaScript",
-          img: travel,
-          link: "https://travel-matheusnsilva7.netlify.app/",
         },
         {
           id: 6,
@@ -128,40 +128,39 @@ const Data = {
       projects: [
         {
           id: 1,
+          name: "Recipes",
+          text: "Projeto que permite pesquisar e marcar suas receitas favoritas, além de ter um local para você colocar suas receitas, usando o Nextjs | TypeScript",
+          img: recipes,
+          link: "https://recipes-matheusnsilva7.netlify.app/",
+        },
+        {
+          id: 2,
           name: "Lemonade Stand",
           text: "Projeto de barraca de limonada, com cardápio, loja e página de pedido de retirada, utilizando Nextjs | TypeScript",
           img: lemonade,
           link: "https://lemonadestand-matheusnsilva7.netlify.app/",
         },
         {
-          id: 2,
+          id: 3,
           name: "Projeto Final",
           text: "Projeto final do MaisUmCode, em HTML | CSS | JavaScript",
           img: maisUmCode,
           link: "https://matheusnsilva7.github.io/Final-project-MaisUmCode/",
         },
         {
-          id: 3,
+          id: 4,
           name: "Formulário",
           text: "Form with a login, create and change password page, usando React | Redux",
           img: Form,
           link: "https://form-matheusnsilva7.netlify.app",
         },
         {
-          id: 4,
+          id: 5,
           name: "Planejamento semanal",
           text: "Planejamento semanal que permite adicionar, remover, arrastar e soltar eventos em sua semana, usando HTML | SASS | JavaScript",
           img: weeklyPlanning,
           link: "https://weeklyplanning-matheusnsilva7.netlify.app",
         },
-        {
-          id: 5,
-          name: "Site de viagens",
-          text: "Site de viagens, usando HTML | SASS | JavaScript",
-          img: travel,
-          link: "https://travel-matheusnsilva7.netlify.app/",
-        },
-
         {
           id: 6,
           name: "Lista De Afazeres",
