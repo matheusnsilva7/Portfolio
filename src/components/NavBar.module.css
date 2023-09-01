@@ -33,6 +33,7 @@
   position: fixed;
   right: -65vw;
   transition: 1s all;
+  z-index: 9;
 }
 .show {
   right: 0;
@@ -40,6 +41,7 @@
 .background {
   width: 100vw;
   height: 100vh;
+  z-index: 9;
   position: fixed;
   top: 0;
   left: 0;
@@ -94,20 +96,24 @@
   }
   .links {
     background-color: transparent;
-    right: 0;
+    max-width: 110rem;
     top: 0;
-    width: 100vw;
+    right: 50%;
+    min-width: 100rem;
+    transform: translateX(50%);
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
     position: absolute;
+    justify-content: space-between;
+    padding-right: 3rem;
   }
   .links ul {
     display: flex;
     gap: 6rem;
     justify-content: center;
-    margin: 3rem 0 3rem 20%;
-    width: 80%;
+    margin: 3rem 0 3rem 34rem;
   }
   .links ul li {
     margin-top: 0;
@@ -120,22 +126,20 @@
     font-size: 1.5rem;
   }
   .links div:last-child {
-    width: 20%;
-    margin: 0 10% 0 0;
     gap: 2rem;
   }
   .links ul li a:hover {
-    color: #26c4c4;
+    color: #ff6464;
   }
   .links button {
     border-bottom: 4px solid transparent;
   }
   .links button:hover {
-    color: #26c4c4;
-    border-bottom: 4px solid #26c4c4;
+    color: #ff6464;
+    border-bottom: 4px solid #ff6464;
   }
   .links .checked {
-    color: #26c4c4;
+    color: #ff6464;
     border-bottom: 4px solid transparent;
   }
 }

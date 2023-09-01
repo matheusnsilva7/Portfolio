@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -13,12 +13,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #444;
-  line-height: 1.9;
-  background-color: #f3f3f3;
-  overflow-x: hidden;
+  font-family: 'Heebo', sans-serif;
 }
 li {
   list-style: none;

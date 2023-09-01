@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: 100%;
 }
 .containerTitle {
   height: 100vh;
@@ -12,11 +12,8 @@
 .containerTitle h1 {
   text-align: center;
   color: #022249;
-  font-size: 3rem;
-  font-weight: 700;
-}
-.containerTitle h1 span {
-  color: #26c4c4;
+  font-size: 4.4rem;
+  font-weight: bold;
 }
 .containerTitle p {
   width: 30rem;
@@ -31,10 +28,10 @@
 .btn {
   margin-top: 2rem;
   padding: 0.8rem 4rem;
-  background-color: #26c4c4;
+  background-color: #FF6464;
   color: white;
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.9rem;
 }
 .containerImg {
   display: none;
@@ -56,7 +53,7 @@
   .containerTitle h1 {
     font-size: 3.7rem;
     text-align: start;
-    width: 36rem;
+    width: 43rem;
   }
   .containerTitle p {
     width: 34rem;
@@ -66,10 +63,12 @@
     display: block;
   }
   .img {
-    width: 30rem;
-    height: 40rem;
+    width: 26rem;
+    height: 26rem;
+    object-fit: cover;
+    border-radius: 50%;
     background-color: #000000;
-    box-shadow: 1rem 1rem 0 #022249;
+    box-shadow: -.7rem 1rem 0 #EDF7FA;
     object-fit: cover;
   }
   .down {
@@ -89,11 +88,19 @@
 }
 @media (min-width: 1000px) {
   .container {
-    gap: 20rem;
+    gap: 10rem;
+    height: 65rem;
+    margin: 0 auto;
   }
-}
-@media (min-width: 1700px) {
-  .container {
-    height: 60vh;
+  .containerTitle p {
+    width: 49.7rem;
+    text-align: start;
+    font-size: 1.6rem;
+    color: #21243d;
+    font-weight: 400;
+  }
+  .img {
+    width: 30rem;
+    height: 30rem;
   }
 }

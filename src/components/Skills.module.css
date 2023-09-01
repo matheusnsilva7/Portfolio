@@ -1,52 +1,65 @@
 .container {
-  background-color: #022249;
-  padding: 4rem 15%;
-  transform: translateY(10rem);
-  opacity: 0;
+  background-color: #edf7fa;
+  padding: 4rem 0;
   transition: all 0.5s;
 }
-.container h3 {
-  color: #26c4c4;
-  font-weight: 400;
-  font-size: 3rem;
-}
-.container h3:last-child {
-  text-align: right;
-}
+
 .skills {
-  display: grid;
-  width: 80vw;
-  grid-template-columns: repeat(2, 1fr);
+  max-width: 110rem;
+  width: 100%;
+  margin: 0 auto;
   padding: 2rem 0;
-  gap: 3rem;
+  overflow: hidden;
+  position: relative;
 }
-.language {
+.slide {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 9rem;
+  width: 100%;
+  animation: 25s slide infinite linear;
 }
-.language img {
-  width: 8rem;
-  height: 7rem;
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1473px);
+  }
 }
-.language h4 {
-  color: #e6f9ff;
-  letter-spacing: 2px;
-  padding-top: 0.7rem;
+.skills::before {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  width: 20rem;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #edf7fa);
+  content: "";
+  z-index: 3;
 }
-.show {
-  transform: translateY(0rem);
-  opacity: 1;
+.skills::after {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 20rem;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #edf7fa);
+  content: "";
+  z-index: 3;
+}
+.img {
+  height: 9rem;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.slide:has(.img:hover) {
+  animation-play-state: paused;
 }
 @media (min-width: 700px) {
-  .skills {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 @media (min-width: 1000px) {
   .container {
     padding: 3rem 5rem;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,10 +71,5 @@
   }
   .language img:hover {
     filter: grayscale(0%);
-  }
-  .skills {
-    grid-template-columns: repeat(7, 1fr);
-    gap: 0;
-    width: 75vw;
   }
 }

@@ -2,9 +2,8 @@
   width: 100vw;
   background-color: #55bdca;
   padding: 3rem 15%;
-  transform: translateY(10rem);
   opacity: 0;
-  transition: all 0.8s;
+  transition: 1s;
 }
 .container h3 {
   color: #e6f9ff;
@@ -22,7 +21,6 @@
   text-align: right;
 }
 .show {
-  transform: translateY(0rem);
   opacity: 1;
 }
 @media (min-width: 700px) {

@@ -1,14 +1,12 @@
 .container {
-  background-color: #e6f9ff;
-  padding: 4rem 15%;
-  transform: translateY(10rem);
-  opacity: 0;
+  padding: 3rem 0;
   transition: all 1.5s;
 }
 .container h3 {
-  color: #26c4c4;
+  color: #21243d;
   font-weight: 400;
   font-size: 2.5rem;
+  padding-left: 1.5rem;
 }
 .container h3:last-child {
   text-align: right;
@@ -16,7 +14,7 @@
 .projects {
   padding: 4rem 0;
   display: grid;
-  gap: 6rem;
+  gap: 4rem;
 }
 .project p {
   color: #022249;
@@ -28,40 +26,89 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #e0e0e0;
 }
 .project h4 {
   font-size: 1.8rem;
-  color: #022249;
+  color: #21243d;
   font-weight: 300;
 }
 .img {
   width: 30rem;
   height: 20rem;
-  background-color: #000000;
-  box-shadow: 10px -10px 0 #022249;
-  border: 1px solid #022249;
 }
-.show {
-  transform: translateY(0rem);
-  opacity: 1;
+.containerImg {
+  display: flex;
+  gap: 1rem;
 }
-@media (min-width: 880px) {
-  .projects {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6rem;
+.miniImg {
+  width: 2rem;
+  height: 2rem;
+}
+.containerLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.links span {
+  font-size: 1.5rem;
+  color: black;
+}
+.links svg {
+  color: black;
+  font-size: 1.5rem;
+}
+@media (min-width: 700px) {
+  .project {
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    grid-template-rows: 3rem 1.5rem 1fr;
+    gap: 2rem;
+    column-gap: 4rem;
+    margin: 0 auto;
+    align-items: stretch;
+    width: 94%;
   }
   .project h4 {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .project p {
+    color: #022249;
+    font-size: 1.6rem;
+    text-align: start;
+    width: 100%;
   }
   .img {
     width: 30rem;
     height: 20rem;
-    border: 1px solid #022249;
+    grid-row: span 4;
   }
 }
-@media (min-width: 1200px) {
-  .projects {
-    grid-template-columns: repeat(3, 1fr);
+.btn {
+  margin: 0 auto;
+  display: block;
+  padding: 1rem 6rem;
+  background-color: #ff6464;
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 1.9rem;
+  border: none;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 100rem;
+    margin: 0 auto;
+  }
+  .project {
+    width: 100%;
   }
 }
