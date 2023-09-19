@@ -41,7 +41,7 @@ const Data = {
           text: "The Project Management Website offers a complete solution for organizing projects, tasks, and users. From user authentication to task status tracking, this application covers all aspects of effective project management.",
           img: management,
           link: "https://project-management-smoky.vercel.app/",
-          github: "#",
+          github: "https://github.com/matheusnsilva7/Project-management",
           icon: [nodejs, pug, mongodb],
         },
         {
@@ -127,7 +127,7 @@ const Data = {
           text: "O Website de Gestão de Projetos oferece uma solução completa para organizar projetos, tarefas e usuários. Desde autenticação de usuário até rastreamento de status de tarefas, esta aplicação abrange todos os aspectos de uma gestão de projetos eficaz.",
           img: management,
           link: "https://project-management-smoky.vercel.app/",
-          github: "",
+          github: "https://github.com/matheusnsilva7/Project-management",
           icon: [nodejs, pug, mongodb],
         },
         {
