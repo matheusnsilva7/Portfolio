@@ -27,7 +27,7 @@ const Data = {
     ],
     home: {
       introduction: "Hello! I'm Matheus",
-      area: "Front-End Web Developer",
+      area: "Full Stack Developer",
       information:
         "I'm a BYUI Software Development student, passionate about creating interactive applications and experiences on the web.",
       btn: "My Projects",
@@ -102,7 +102,7 @@ const Data = {
     },
     contact: {
       name: "contact",
-      note: "Thank you very much for visiting my portfolio website, i hope you enjoyed it, if there is any improvement suggestion please let me know through my LinkedId.",
+      note: "Thank you very much for visiting my portfolio website, i hope you enjoyed it, if there is any improvement suggestion please let me know through my LinkedIn.",
     },
   },
   POR: {
@@ -113,7 +113,7 @@ const Data = {
     ],
     home: {
       introduction: "Olá, eu sou Matheus ",
-      area: "Desenvolvedor Front-End",
+      area: "Desenvolvedor Full Stack",
       information:
         "Sou um estudante de Desenvolvimento de Software na BYUI, apaixonado por criar aplicações e experiências interativas na web.",
       btn: "PROJETOS",
@@ -188,7 +188,7 @@ const Data = {
     },
     contact: {
       name: "Contato",
-      note: "Muito obrigado por visitar o site do meu portfólio, espero que tenha gostado, se houver alguma sugestão de melhoria, por favor me avise através do meu LinkedId.",
+      note: "Muito obrigado por visitar o site do meu portfólio, espero que tenha gostado, se houver alguma sugestão de melhoria, por favor me avise através do meu LinkedIn.",
     },
   },
   home: code,
